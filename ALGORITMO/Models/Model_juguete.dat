@@ -1,0 +1,297 @@
+/* CONJUNTOS */
+set NF:= 39 ;
+
+set ENTR:= BETARRAGA_CON_CEBOLLA_Y_ZANAHORIA REPOLLO_MORADO_CON_PIMENTON CHILENA APIO_CON_PALTA ARVEJA_CON_CEBOLLA REPOLLO_CON_ACEITUNA 
+LECHUGA_CON_HABAS CREMA_DE_VERDURAS TOMATE_CON_CILANTRO CONSOME_DE_VACUNO MIX_DE_REPOLLO LECHUGA_CON_ZANAHORIA_Y_PALMITO 
+LECHUGA_CON_CHOCLO BETARRAGA_CON_CILANTRO ESPINACA_CON_ZANAHORIA TOMATE_CON_POROTO_VERDE BROCOLI_CON_COLIFLOR LECHUGA_CON_ESPINACA 
+CONSOME_DE_AVE TOMATE_CON_PEPINO LECHUGA_CON_ZANAHORIAS APIO_CON_ACEITUNAS LECHUGA_CON_ENSALADA_PRIMAVERA BETARRAGA_CON_ZANAHORIA 
+POROTOS_VERDES_CON_CHOCLO LECHUGA_CON_MIX_DE_PIMENTON APIO_ESPINACA_Y_ACEITUNA LECHUGA_CON_CHAMPINON EMPANADA_DE_PINO BETARRAGAS_CON_CEBOLLLA  ;
+
+set PRIN:= PAVO_ASADO_CON_ESPINACA_A_LA_CREMA ESTOFADO_DE_VACUNO_CON_ARROZ CHARQUICAN POLLO_ARVERJADO_CON_QUINOA CARNE_AL_JUGO_CON_FIDEOS 
+CAZUELA_DE_AVE CHAPSUI_DE_VACUNO_CON_ARROZ POROTOS_CON_RIENDAS BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS FIDEOS_CON_SALSA_DE_MARISCO GARBANZOS_GUISADOS 
+CARBONADA CERDO_AL_JUGO_CON_QUINOA STROGONOFF_CON_ARROZ PESCADO_AL_HORNO_CON_PURE LENTEJAS_GUISADAS POLLO_ARVERJADO_CON_PURE POLLO_AL_JUGO_CON_ARROZ 
+ARROZ_A_LA_VALENCIANA PANTRUCAS AJIACO POLLO_ARVEJADO_CON_ARROZ LOMO_CON_PASTELERA_DE_CHOCLO CARNE_ASADA_CON_ESPINACA_A_LA_CREMA 
+COSTILLAR_AL_HORNO_CON_SALPICON_DE_VERDURAS ESTOFADO_DE_POLLO_CON_ARROZ CAZUELA_DE_VACUNO PASTEL_DE_CHOCLO PARILLADA_CON_ENSALADA_A_LA_CHILENA 
+PASTEL_DE_PAPA POROTOS_CON_MAZAMORRA CALDILLO_DE_MARISCO CARNE_AL_CILANTRO_CON_PANACHE_DE_VERDURAS HUMITAS_X2 POLLO_ASADO_CON_ARROZ 
+PESCADO_AL_HORNO_CON_QUINOA_A_LA_PRIMAVERA FIDEOS_CON_SALSA_A_LA_PRIMAVERA CHULETAS_AL_JUGO_CON_PAPAS_GRATINADAS POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA ;
+
+set PSTR:= MANZANA SEMOLA_CON_LECHE NARANJA JALEA_CON_FRUTA PERA PINA BRAZO_DE_REINA LECHE_ASADA BAVAROIS FLAN_DE_CHOCOLATE QUEQUE_DE_ZANAHORIA 
+FLAN_DE_VAINILLA FLAN_DE_CARAMELO MOUSSE_DE_FRAMBUESA JALEA_DE_PINA MOTE_CON_HUESILLO JALEA_MARMOL PLATANOS_FRITOS_A_LO_MACHO_CON_CREMA 
+JALEAS_TRICOLOR CALABAZA_EN_TACHA DURAZNO FRUTILLA DAMASCO GUINDA_CEREZA KIWI MANDARINA PAPAYA PLATANO MANGO FRAMBUESA HIGO ;
+
+set MM:= PAVO_ASADO_CON_ESPINACA_A_LA_CREMA ESTOFADO_DE_VACUNO_CON_ARROZ CHARQUICAN POLLO_ARVERJADO_CON_QUINOA CARNE_AL_JUGO_CON_FIDEOS CAZUELA_DE_AVE 
+CHAPSUI_DE_VACUNO_CON_ARROZ FIDEOS_CON_SALSA_DE_MARISCO CERDO_AL_JUGO_CON_QUINOA PESCADO_AL_HORNO_CON_PURE 
+POLLO_ARVERJADO_CON_PURE POLLO_AL_JUGO_CON_ARROZ POLLO_ARVEJADO_CON_ARROZ LOMO_CON_PASTELERA_DE_CHOCLO 
+CARNE_ASADA_CON_ESPINACA_A_LA_CREMA COSTILLAR_AL_HORNO_CON_SALPICON_DE_VERDURAS ESTOFADO_DE_POLLO_CON_ARROZ CAZUELA_DE_VACUNO 
+PARILLADA_CON_ENSALADA_A_LA_CHILENA CALDILLO_DE_MARISCO CARNE_AL_CILANTRO_CON_PANACHE_DE_VERDURAS HUMITAS_X2 POLLO_ASADO_CON_ARROZ 
+PESCADO_AL_HORNO_CON_QUINOA_A_LA_PRIMAVERA CHULETAS_AL_JUGO_CON_PAPAS_GRATINADAS POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA  ;
+
+set ML:= POROTOS_CON_RIENDAS BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS GARBANZOS_GUISADOS CARBONADA STROGONOFF_CON_ARROZ LENTEJAS_GUISADAS 
+ARROZ_A_LA_VALENCIANA PANTRUCAS AJIACO PASTEL_DE_CHOCLO PASTEL_DE_PAPA POROTOS_CON_MAZAMORRA FIDEOS_CON_SALSA_A_LA_PRIMAVERA ;
+
+set DIAS:= JUN3 JUN4 JUN5 JUN6 JUN7 JUN10 JUN11 JUN12 JUN13 JUN14 JUN17 JUN18 JUN19 JUN20 JUN21 JUN24 JUN25 JUN26 JUN27 JUN28;
+
+set NUTR:= CALORIAS PROTEINA LIPIDOS GRASA_SATURADA CARBOS FIBRA COLESTEROL SODIO ;
+
+/* PARAMETROS */
+
+
+param u_na:=
+BETARRAGA_CON_CEBOLLA_Y_ZANAHORIA                       	 78	  3.580     3.28	0.50	11.33	4.76	0.00	298.40
+REPOLLO_MORADO_CON_PIMENTON                             	 70	  1.920     3.28	0.47	9.610	4.25	0.00	27.300
+CHILENA                                                 	 63	  1.420     3.39	0.55	7.760	1.51	0.00	13.600
+APIO_CON_PALTA                                          	172	  6.330     7.47	1.25	23.66	9.40	0.00	376.56
+ARVEJA_CON_CEBOLLA                                      	172	  6.330     7.47	1.25	23.66	9.40	0.00	376.56
+REPOLLO_CON_ACEITUNA                                    	172	  6.330     7.47	1.25	23.66	9.40	0.00	376.56
+LECHUGA_CON_HABAS                                       	 95	  5.440     3.51	0.54	11.47	2.84	0.00	10.100
+CREMA_DE_VERDURAS                                       	103	  5.320     5.57	2.06	8.400	1.49	4.50	79.150
+TOMATE_CON_CILANTRO                                     	 59	  1.300     3.37	0.53	6.900	1.35	0.00	13.300
+CONSOME_DE_VACUNO                                       	 67	  2.140     4.05	0.96	5.250	0.50	42.5	20.550
+MIX_DE_REPOLLO 	                                        	 66	  1.840     3.26	0.50	8.970	4.04	0.00	27.100
+LECHUGA_CON_ZANAHORIA_Y_PALMITO                         	 61	  2.440     3.36	0.49	6.780	3.62	0.00	56.200
+LECHUGA_CON_CHOCLO 	                                    	 66	  2.570     3.44	0.52	7.740	3.51	0.00	10.300
+BETARRAGA_CON_CILANTRO                                  	 62	  3.160     3.20	0.48	7.470	3.64	0.00	389.10
+ESPINACA_CON_ZANAHORIA                                  	 50	  2.040     3.20	0.46	4.970	2.68	0.00	53.600
+TOMATE_CON_POROTO_VERDE                                 	102	  2.630     5.07	0.68	12.43	3.17	0.00	115.40
+BROCOLI_CON_COLIFLOR                                    	 60	  2.980     3.28	0.50	7.030	2.56	0.00	110.50
+LECHUGA_CON_ESPINACA                                    	 56	  2.890     3.38	0.50	5.370	3.74	0.00	131.35
+CONSOME_DE_AVE                                          	 67	  2.140     4.05	0.96	5.250	0.50	42.5	20.550
+TOMATE_CON_PEPINO 	                                    	 84	  1.540     3.39	0.53	8.970	1.79	0.00	114.20
+LECHUGA_CON_ZANAHORIAS                                  	 76	  2.190     3.30	0.49	6.320	3.38	0.00	113.60
+APIO_CON_ACEITUNAS                                      	 58	  1.110     4.37	0.79	5.410	2.29	0.00	396.50
+LECHUGA_CON_ENSALADA_PRIMAVERA                          	 65	  2.270     3.29	0.49	5.360	2.74	0.00	107.60
+BETARRAGA_CON_ZANAHORIA                                 	 74	  3.460     3.26	0.48	10.47	4.60	0.00	398.10
+POROTOS_VERDES_CON_CHOCLO                               	 87	  2.530     3.53	0.54	13.24	8.54	0.00	107.60
+LECHUGA_CON_MIX_DE_PIMENTON                             	 62	  2.230     3.32	0.49	6.240	3.22	0.00	108.20
+APIO_ESPINACA_Y_ACEITUNA    	                        	 64	  2.010     4.49	0.80	6.460	3.29	0.00	420.25
+LECHUGA_CON_CHAMPINON                                   	 58	  2.650     3.42	0.49	5.860	3.40	0.00	108.20
+EMPANADA_DE_PINO                                        	298	  10.00     16.0	2.00	27.00	0.00	0.00	543.00
+BETARRAGAS_CON_CEBOLLLA                                 	 74	  3.480     3.26	0.50	10.33	4.44	0.00	395.40
+PAVO_ASADO_CON_ESPINACA_A_LA_CREMA                        	555	    36.85	16.97	4.62000   12.51    2.340	141.080   224.64
+ESTOFADO_DE_VACUNO_CON_ARROZ                              	590	    33.05	7.650	2.04000   72.00    1.240	0.00000   74.600
+CHARQUICAN                                                	499	    38.70	14.21	3.15000   41.05    3.260	0.17000   329.35
+POLLO_ARVERJADO_CON_QUINOA                                	490	    41.18	19.60	2.86000   40.50    2.560	141.000   333.77
+CARNE_AL_JUGO_CON_FIDEOS                                  	574	    37.65	14.46	3.20000   50.85    2.750	0.17000   357.85
+CAZUELA_DE_AVE                                            	470	    38.25	16.04	2.87000   36.19    1.420	141.000   111.20
+CHAPSUI_DE_VACUNO_CON_ARROZ                               	529	    30.47	13.26	2.67000   65.82    2.010	0.00000   175.85
+POROTOS_CON_RIENDAS                                       	534	    23.79	13.03	1.24000   78.94    18.27	0.00000   122.45
+BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS                       	320	    10.18	15.51	4.35000   32.95    5.740	106.300   212.35
+FIDEOS_CON_SALSA_DE_MARISCO                               	520	    44.65	10.99	2.53000   58.34    2.830	264.680   384.26
+GARBANZOS_GUISADOS                                        	464	    15.93	15.70	1.37000   57.85    17.14	0.00000   110.20
+CARBONADA                                                 	386	    25.06	13.30	2.60000   38.39    3.240	0.00000   279.70
+CERDO_AL_JUGO_CON_QUINOA                                  	410	    34.75	9.130	2.66000   42.83    5.540	111.000   346.00
+STROGONOFF_CON_ARROZ                                      	445	    27.35	20.39	6.69000   37.35    2.730	15.4500   373.92
+PESCADO_AL_HORNO_CON_PURE                                 	494	    44.25	15.32	3.85000   48.69    1.930	216.900   520.20
+LENTEJAS_GUISADAS                                         	285	    8.890	10.54	1.22000   31.19    6.380	0.00000   207.05
+POLLO_ARVERJADO_CON_PURE                                  	452	    37.35	16.08	2.93000   38.27    1.170	141.000   205.12
+POLLO_AL_JUGO_CON_ARROZ                                   	355	    37.58	6.300	1.86000   41.90    1.560	141.000   235.75
+ARROZ_A_LA_VALENCIANA                                     	406	    26.78	15.11	5.16000   55.40    1.330	82.9000   670.37
+PANTRUCAS                                                 	320	    37.38	5.640	2.78000   32.57    1.360	63.9700   252.15
+AJIACO                                                    	401	    38.91	15.03	3.63000   25.68    1.340	42.6650   245.00
+POLLO_ARVEJADO_CON_ARROZ                                  	445	    37.42	16.24	2.94000   32.82    1.450	141.000   134.27
+LOMO_CON_PASTELERA_DE_CHOCLO                              	445	    37.42	16.24	2.94000   32.82    1.450	141.000   134.27
+CARNE_ASADA_CON_ESPINACA_A_LA_CREMA                       	666	    42.31	34.80	11.0100   45.36    1.360	15.4500   712.80
+COSTILLAR_AL_HORNO_CON_SALPICON_DE_VERDURAS               	413	    41.43	20.55	5.43000   17.05    2.480	0.24500   496.96
+ESTOFADO_DE_POLLO_CON_ARROZ                               	435	    37.79	10.56	2.35000   33.11    1.690	141.000   109.77
+CAZUELA_DE_VACUNO                                         	407	    38.05	4.120	2.03000   41.64    1.420	0.16500   325.20
+PASTEL_DE_CHOCLO                                          	791	    60.96	35.21	8.07000   59.88    1.650	176.965   936.10
+PARILLADA_CON_ENSALADA_A_LA_CHILENA                        1103     73.92	73.47	28.0200   37.24    2.230	235.400   1864.0
+PASTEL_DE_PAPA                                            	540	    38.37	22.00	5.54000   53.54    1.450	85.1650   573.60
+POROTOS_CON_MAZAMORRA                                     	528	    24.62	15.02	2.54000   79.90    13.46	0.00000   538.90
+CALDILLO_DE_MARISCO                                       	460	    31.65	13.64	1.79000   22.95    1.040	178.800   267.40
+CARNE_AL_CILANTRO_CON_PANACHE_DE_VERDURAS                 	522	    44.16	16.10	4.00000   23.50    2.700	0.00000   248.25
+HUMITAS_X2                                                	460	    13.50	26.88	15.1200   45.80    5.200	138.000   688.00
+POLLO_ASADO_CON_ARROZ                                     	423	    36.96	16.07	2.95000   37.89    0.960	141.000   105.70
+PESCADO_AL_HORNO_CON_QUINOA_A_LA_PRIMAVERA                	365	    36.50	10.71	0.85000   39.12    2.370	209.000   184.95
+FIDEOS_CON_SALSA_A_LA_PRIMAVERA                           	440	    33.50	8.620	3.67000   48.85    2.750	0.16500   242.90
+CHULETAS_AL_JUGO_CON_PAPAS_GRATINADAS                     	536	    34.16	36.28	13.4600   26.98    1.620	128.700   501.35
+POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA                         	375	    37.86	6.330	1.86000   42.94    1.560	141.000   235.75
+MANZANA                                                   	71.00	0.24	0.48	0.07	18.24	2.88	0.00	0.00
+SEMOLA_CON_LECHE                                          	164.00	9.92	0.20	0.00	30.38	0.54	0.00	117.55
+NARANJA                                                   	75.00	1.44	0.16	0.03	18.88	3.36	0.00	0.00
+JALEA_CON_FRUTA                                           	9.00	0.10	0.05	0.02	2.34	0.16	0.00	0.10
+PERA                                                      	60.00	0.52	0.12	0.00	12.70	2.64	0.00	2.52
+PINA                                                      	78.00	0.64	0.64	0.05	19.80	1.92	0.00	1.60
+BRAZO_DE_REINA                                            	90.00	2.77	1.64	0.77	21.03	3.26	72.80	27.75
+LECHE_ASADA                                               	119.00	6.03	1.51	0.77	20.54	0.00	63.80	86.45
+BAVAROIS                                                  	53.60	2.80	3.20	1.84	4.00	0.00	11.60	42.40
+FLAN_DE_CHOCOLATE                                         	98.00	0.50	1.00	0.00	16.50	0.00	0.00	52.00
+QUEQUE_DE_ZANAHORIA                                       	241.00	3.67	17.91	6.80	18.82	0.75	63.80	393.70
+FLAN_DE_VAINILLA                                          	98.00	0.50	1.00	0.00	16.50	0.00	0.00	52.00
+FLAN_DE_CARAMELO                                          	98.00	0.50	1.00	0.00	16.50	0.00	0.00	52.00
+MOUSSE_DE_FRAMBUESA                                       	53.60	2.80	3.20	1.84	9.00	3.00	20.60	42.40
+JALEA_DE_PINA                                             	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00
+MOTE_CON_HUESILLO                                         	246.00	3.88	0.76	0.13	59.25	6.90	0.00	31.80
+JALEA_MARMOL                                              	50.00	0.50	5.00	3.20	0.72	0.00	9.00	0.00
+PLATANOS_FRITOS_A_LO_MACHO_CON_CREMA                      	847.00	4.56	86.83	24.01	86.17	7.50	95.90	29.60
+JALEAS_TRICOLOR                                           	30.00	0.75	0.40	0.00	5.90	0.00	0.00	11.50
+CALABAZA_EN_TACHA                                         	95.00	0.77	0.14	0.04	22.18	1.82	0.00	2.80
+DURAZNO                                                   	38.00	0.89	0.24	0.01	9.35	1.50	0.00	0.00
+FRUTILLA                                                  	36.00	0.72	0.48	0.03	8.52	3.12	0.00	1.20
+DAMASCO                                                   	17.00	0.49	0.24	0.00	3.89	0.70	0.00	0.00
+GUINDA_CEREZA                                             	58.00	1.02	0.10	0.04	14.77	1.90	0.00	1.00
+KIWI                                                      	61.00	1.14	0.15	0.03	14.66	3.00	0.00	3.00
+MANDARINA                                                 	53.00	0.81	0.40	0.04	13.34	1.80	0.00	2.00
+PAPAYA                                                    	39.00	0.61	0.20	0.04	9.81	1.80	0.00	3.00
+PLATANO                                                   	89.00	1.09	0.30	0.11	22.84	2.60	0.00	1.00
+MANGO                                                     	65.00	0.51	0.40	0.07	17.00	1.80	0.00	2.00
+FRAMBUESA                                                 	52.00	1.20	0.60	0.02	11.94	6.50	0.00	1.00
+HIGO                                                      	74.00	0.75	0.20	0.06	19.18	2.90	0.00	1.00
+;
+
+
+param el_a_y_rc_a:=
+BETARRAGA_CON_CEBOLLA_Y_ZANAHORIA                       0.165	143.53
+REPOLLO_MORADO_CON_PIMENTON                             0.229	189.95
+CHILENA                                                 0.366	198.30
+APIO_CON_PALTA                                          0.460	496.27
+ARVEJA_CON_CEBOLLA                                      0.460	496.27
+REPOLLO_CON_ACEITUNA                                    0.460	496.27
+LECHUGA_CON_HABAS                                       0.448	494.60
+CREMA_DE_VERDURAS                                       0.230	166.43
+TOMATE_CON_CILANTRO                                     0.356	192.47
+CONSOME_DE_VACUNO                                       0.079	99.420
+MIX_DE_REPOLLO 	                                        0.207	119.63
+LECHUGA_CON_ZANAHORIA_Y_PALMITO                         0.432	462.64
+LECHUGA_CON_CHOCLO 	                                    0.417	514.79
+BETARRAGA_CON_CILANTRO                                  0.128	119.45
+ESPINACA_CON_ZANAHORIA                                  0.150	145.31
+TOMATE_CON_POROTO_VERDE                                 0.424	361.36
+BROCOLI_CON_COLIFLOR                                    0.215	209.30
+LECHUGA_CON_ESPINACA                                    0.433	500.72
+CONSOME_DE_AVE                                          0.064	113.46
+TOMATE_CON_PEPINO 	                                    0.450	257.52
+LECHUGA_CON_ZANAHORIAS                                  0.405	474.54
+APIO_CON_ACEITUNAS                                      0.161	270.05
+LECHUGA_CON_ENSALADA_PRIMAVERA                          0.381	452.60
+BETARRAGA_CON_ZANAHORIA                                 0.155	137.52
+POROTOS_VERDES_CON_CHOCLO                               0.170	336.20
+LECHUGA_CON_MIX_DE_PIMENTON                             0.446	660.05
+APIO_ESPINACA_Y_ACEITUNA    	                        0.216	322.22
+LECHUGA_CON_CHAMPINON                                   0.436	557.72
+EMPANADA_DE_PINO                                        1.679	476.64
+BETARRAGAS_CON_CEBOLLLA                                 0.137	136.58
+PAVO_ASADO_CON_ESPINACA_A_LA_CREMA                      2.250  	1520.45
+ESTOFADO_DE_VACUNO_CON_ARROZ                            5.082  	1523.92
+CHARQUICAN                                              5.043  	1564.76
+POLLO_ARVERJADO_CON_QUINOA                              1.060  	1192.45
+CARNE_AL_JUGO_CON_FIDEOS                                4.907  	1463.56
+CAZUELA_DE_AVE                                          1.070  	738.870
+CHAPSUI_DE_VACUNO_CON_ARROZ                             4.099  	1285.70
+POROTOS_CON_RIENDAS                                     0.291  	489.270
+BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS                     0.732  	669.290
+FIDEOS_CON_SALSA_DE_MARISCO                             1.158  	850.230
+GARBANZOS_GUISADOS                                      0.292  	378.870
+CARBONADA                                               3.131  	1055.21
+CERDO_AL_JUGO_CON_QUINOA                                0.990  	1304.84
+STROGONOFF_CON_ARROZ                                    3.362  	1147.35
+PESCADO_AL_HORNO_CON_PURE                               1.481  	1752.87
+LENTEJAS_GUISADAS                                       0.293  	368.640
+POLLO_ARVERJADO_CON_PURE                                1.115  	640.860
+POLLO_AL_JUGO_CON_ARROZ                                 1.169  	733.730
+ARROZ_A_LA_VALENCIANA                                   1.260  	790.570
+PANTRUCAS                                               3.967  	1168.88
+AJIACO                                                  5.859  	1664.78
+POLLO_ARVEJADO_CON_ARROZ                                1.033  	620.770
+LOMO_CON_PASTELERA_DE_CHOCLO                            6.082  	1889.50
+CARNE_ASADA_CON_ESPINACA_A_LA_CREMA                     5.082  	1515.54
+COSTILLAR_AL_HORNO_CON_SALPICON_DE_VERDURAS             1.656  	1440.40
+ESTOFADO_DE_POLLO_CON_ARROZ                             0.862  	567.320
+CAZUELA_DE_VACUNO                                       5.854  	1659.10
+PASTEL_DE_CHOCLO                                        5.886  	2035.01
+PARILLADA_CON_ENSALADA_A_LA_CHILENA                     5.143  	1932.82
+PASTEL_DE_PAPA                                          2.567  	858.980
+POROTOS_CON_MAZAMORRA                                   0.663  	765.560
+CALDILLO_DE_MARISCO                                     1.780  	1175.02
+CARNE_AL_CILANTRO_CON_PANACHE_DE_VERDURAS               5.899  	1828.41
+HUMITAS_X2                                              1.291  	2002.10
+POLLO_ASADO_CON_ARROZ                                   1.105  	594.370
+PESCADO_AL_HORNO_CON_QUINOA_A_LA_PRIMAVERA              1.203  	2012.21
+FIDEOS_CON_SALSA_A_LA_PRIMAVERA                         2.461  	868.910
+CHULETAS_AL_JUGO_CON_PAPAS_GRATINADAS                   1.164  	937.260
+POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA                       1.182  	753.950
+MANZANA                                                 0.059	143.76
+SEMOLA_CON_LECHE                                        0.007	46.43
+NARANJA                                                 0.078	172.00
+JALEA_CON_FRUTA                                         0.008   290.21
+PERA                                                    0.059	131.40
+PINA                                                    0.078	192.91
+BRAZO_DE_REINA                                          0.010	182.00
+LECHE_ASADA                                             0.006	60.42
+BAVAROIS                                                0.012	278.32
+FLAN_DE_CHOCOLATE                                       0.029	653.94
+QUEQUE_DE_ZANAHORIA                                     0.009	195.03
+FLAN_DE_VAINILLA                                        0.028	592.48
+FLAN_DE_CARAMELO                                        0.028	591.46
+MOUSSE_DE_FRAMBUESA                                     0.017	301.12
+JALEA_DE_PINA                                           0.008	34.92
+MOTE_CON_HUESILLO                                       0.032	248.79
+JALEA_MARMOL                                            0.006   75.99
+PLATANOS_FRITOS_A_LO_MACHO_CON_CREMA                    0.170	555.08
+JALEAS_TRICOLOR                                         0.012	103.78
+CALABAZA_EN_TACHA                                       0.034	97.86
+DURAZNO                                                 0.059   155.88
+FRUTILLA                                                0.059   482.88
+DAMASCO                                                 0.059   201.60
+GUINDA_CEREZA                                           0.059	225.48
+KIWI                                                    0.059	180.00
+MANDARINA                                               0.059	137.04
+PAPAYA                                                  0.059   241.08
+PLATANO                                                 0.059	100.20
+MANGO                                                   0.059	263.88
+FRAMBUESA                                               0.059	1046.64
+HIGO                                                    0.059	212.28
+;
+
+param r_a:=
+PAVO_ASADO_CON_ESPINACA_A_LA_CREMA                           1000
+ESTOFADO_DE_VACUNO_CON_ARROZ                                 850
+CHARQUICAN                                                   550
+POLLO_ARVERJADO_CON_QUINOA                                   850
+CARNE_AL_JUGO_CON_FIDEOS                                     1000
+CAZUELA_DE_AVE                                               1000
+CHAPSUI_DE_VACUNO_CON_ARROZ                                  1000
+POROTOS_CON_RIENDAS                                          650
+BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS                          1000
+FIDEOS_CON_SALSA_DE_MARISCO                                  550
+GARBANZOS_GUISADOS                                           750
+CARBONADA                                                    750
+CERDO_AL_JUGO_CON_QUINOA                                     750
+STROGONOFF_CON_ARROZ                                         800
+PESCADO_AL_HORNO_CON_PURE                                    650
+LENTEJAS_GUISADAS                                            650
+POLLO_ARVERJADO_CON_PURE                                     650
+POLLO_AL_JUGO_CON_ARROZ                                      650
+ARROZ_A_LA_VALENCIANA                                        650
+PANTRUCAS                                                    550
+AJIACO                                                       850
+POLLO_ARVEJADO_CON_ARROZ                                     850
+LOMO_CON_PASTELERA_DE_CHOCLO                                 1000
+CARNE_ASADA_CON_ESPINACA_A_LA_CREMA                          1000
+COSTILLAR_AL_HORNO_CON_SALPICON_DE_VERDURAS                  1000
+ESTOFADO_DE_POLLO_CON_ARROZ                                  1000
+CAZUELA_DE_VACUNO                                            1000
+PASTEL_DE_CHOCLO                                             1000
+PARILLADA_CON_ENSALADA_A_LA_CHILENA                          1200
+PASTEL_DE_PAPA                                               1000
+POROTOS_CON_MAZAMORRA                                        1000
+CALDILLO_DE_MARISCO                                          1000
+CARNE_AL_CILANTRO_CON_PANACHE_DE_VERDURAS                    1000
+HUMITAS_X2                                                   850
+POLLO_ASADO_CON_ARROZ                                        400
+PESCADO_AL_HORNO_CON_QUINOA_A_LA_PRIMAVERA                   550
+FIDEOS_CON_SALSA_A_LA_PRIMAVERA                              850
+CHULETAS_AL_JUGO_CON_PAPAS_GRATINADAS                        850
+POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA                            850
+;
+
+param cotas_nutr:=
+CALORIAS 			 400		690	
+PROTEINA 			 10			60
+LIPIDOS 			 8.89		26.83
+GRASA_SATURADA 		 0			7.67
+CARBOS 				 48			119.6
+FIBRA 				 5.6		9.66
+COLESTEROL 			 0      	960	
+SODIO				 0		    690
+;

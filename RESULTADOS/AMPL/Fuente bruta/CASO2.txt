@@ -1,0 +1,1187 @@
+::::::::::::::::::::::::::: Descripcion de la Instancia :::::::::::::::::::::::::::
+
+N° Platos      : 83 
+N° Entradas      : 20 
+N° Platos Principales      : 47 
+N° Postres      : 16 
+N° Dias habiles      : 15 
+
+
+
+  Objetivo ::::::: 1
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: time limit, feasible solution; objective 11856
+1.63021e+08 simplex iterations
+1.79962e+06 branching nodes
+absmipgap=566.278, relmipgap=0.047763
+
+
+F [*] :=
+1     11856
+2  14054400
+;
+
+Dia  SEP1
+Entrada: CONSOME_DE_AVE 
+Plato Principal: POROTOS_CON_MAZAMORRA 
+Postre: JALEA_MARMOL 
+
+Dia  SEP2
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_ASADO_CON_ARROZ 
+Postre: DAMASCO 
+
+Dia  SEP3
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: PESCADO_AL_HORNO_CON_QUINOA_A_LA_PRIMAVERA 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP4
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: RISOTTO_DE_ESPINACA 
+Postre: MOTE_CON_HUESILLO 
+
+Dia  SEP5
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: RISOTTO_DE_QUINOA 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP8
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: POROTOS_CON_PILCO 
+Postre: JALEA_MARMOL 
+
+Dia  SEP9
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: FIDEOS_CON_SALSA_BONTUX 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP10
+Entrada: CONSOME_DE_AVE 
+Plato Principal: BUDIN_DE_VERDURAS_CON_QUINOA 
+Postre: MOTE_CON_HUESILLO 
+
+Dia  SEP11
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: CERDO_AL_JUGO_CON_ARROZ 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP12
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: POLLO_ARVEJADO_CON_FIDEOS 
+Postre: HIGO 
+
+Dia  SEP15
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: RATATOUILLE 
+Postre: MOTE_CON_HUESILLO 
+
+Dia  SEP16
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_ASADO_CON_PURE_MIXTO 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP17
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: MENESTRON 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP18
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA 
+Postre: JALEA_MARMOL 
+
+Dia  SEP19
+Entrada: CONSOME_DE_AVE 
+Plato Principal: POLLO_AL_JUGO_CON_QUINOA 
+Postre: FRAMBUESA 
+
+
+  Objetivo ::::::: 2
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: time limit, feasible solution; objective 10542772
+8.86923e+07 simplex iterations
+4.37897e+06 branching nodes
+absmipgap=750620, relmipgap=0.0711976
+
+
+F [*] :=
+1     17612.8
+2  10542800
+;
+
+Dia  SEP1
+Entrada: CONSOME_DE_AVE 
+Plato Principal: POROTOS_CON_PILCO 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP2
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: CHULETA_ARVERJADA_CON_ARROZ_CURRY 
+Postre: MANDARINA 
+
+Dia  SEP3
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: FIDEOS_CON_SALSA_A_LA_PRIMAVERA 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP4
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: CURRY_DE_VERDURAS_CON_ARROZ 
+Postre: PLATANO 
+
+Dia  SEP5
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: FIDEOS_CON_SALSA_BONTUX 
+Postre: JALEA_MARMOL 
+
+Dia  SEP8
+Entrada: CONSOME_DE_AVE 
+Plato Principal: RISOTTO_DE_ESPINACA 
+Postre: PLATANO 
+
+Dia  SEP9
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_ASADO_CON_ARROZ 
+Postre: MANDARINA 
+
+Dia  SEP10
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: CERDO_AL_JUGO_CON_ARROZ 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP11
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP12
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: CHAPSUI_DE_POLLO_CON_ARROZ 
+Postre: JALEA_MARMOL 
+
+Dia  SEP15
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: POROTOS_CON_MAZAMORRA 
+Postre: JALEA_MARMOL 
+
+Dia  SEP16
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: MENESTRON 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP17
+Entrada: CONSOME_DE_AVE 
+Plato Principal: POLLO_ASADO_CON_PURE_MIXTO 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP18
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: CHULETAS_AL_JUGO_CON_PAPAS_GRATINADAS 
+Postre: PLATANO 
+
+Dia  SEP19
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_ARVEJADO_CON_FIDEOS 
+Postre: MANDARINA 
+
+
+==> Ejecucion ::::::: 1
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: time limit, feasible solution; objective -3.470486104e-07
+1.88735e+08 simplex iterations
+8.90685e+06 branching nodes
+absmipgap=0.015712, relmipgap=1e+100
+
+
+F [*] :=
+1     17563.8
+2  10542700
+;
+
+Dia  SEP1
+Entrada: CONSOME_DE_AVE 
+Plato Principal: POROTOS_CON_PILCO 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP2
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: CHAPSUI_DE_POLLO_CON_ARROZ 
+Postre: JALEA_MARMOL 
+
+Dia  SEP3
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_ASADO_CON_ARROZ 
+Postre: MANDARINA 
+
+Dia  SEP4
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: CHULETAS_AL_JUGO_CON_PAPAS_GRATINADAS 
+Postre: PLATANO 
+
+Dia  SEP5
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: FIDEOS_CON_SALSA_A_LA_PRIMAVERA 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP8
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: RISOTTO_DE_ESPINACA 
+Postre: PLATANO 
+
+Dia  SEP9
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: MENESTRON 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP10
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: FIDEOS_CON_SALSA_BONTUX 
+Postre: JALEA_MARMOL 
+
+Dia  SEP11
+Entrada: CONSOME_DE_AVE 
+Plato Principal: POLLO_ASADO_CON_PURE_MIXTO 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP12
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: CHULETA_ARVERJADA_CON_ARROZ_CURRY 
+Postre: MANDARINA 
+
+Dia  SEP15
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: POROTOS_CON_MAZAMORRA 
+Postre: JALEA_MARMOL 
+
+Dia  SEP16
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_ARVEJADO_CON_FIDEOS 
+Postre: MANDARINA 
+
+Dia  SEP17
+Entrada: CONSOME_DE_AVE 
+Plato Principal: CURRY_DE_VERDURAS_CON_ARROZ 
+Postre: PLATANO 
+
+Dia  SEP18
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: CERDO_AL_JUGO_CON_ARROZ 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP19
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA 
+Postre: CALABAZA_EN_TACHA 
+
+
+==> Ejecucion ::::::: 2
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: time limit, feasible solution; objective 0.01635673313
+2.36818e+08 simplex iterations
+7.08423e+06 branching nodes
+absmipgap=0.0181902, relmipgap=1.11209
+
+
+F [*] :=
+1     14471.9
+2  10643500
+;
+
+Dia  SEP1
+Entrada: CONSOME_DE_AVE 
+Plato Principal: RISOTTO_DE_ESPINACA 
+Postre: PLATANO 
+
+Dia  SEP2
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP3
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: POROTOS_CON_MAZAMORRA 
+Postre: JALEA_MARMOL 
+
+Dia  SEP4
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: CERDO_AL_JUGO_CON_ARROZ 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP5
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: CHULETA_ARVERJADA_CON_ARROZ_CURRY 
+Postre: MANDARINA 
+
+Dia  SEP8
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: BUDIN_DE_VERDURAS_CON_QUINOA 
+Postre: PLATANO 
+
+Dia  SEP9
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_ASADO_CON_ARROZ 
+Postre: MANDARINA 
+
+Dia  SEP10
+Entrada: CONSOME_DE_AVE 
+Plato Principal: MENESTRON 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP11
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: CURRY_DE_VERDURAS_CON_ARROZ 
+Postre: JALEA_MARMOL 
+
+Dia  SEP12
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_ASADO_CON_PURE_MIXTO 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP15
+Entrada: CONSOME_DE_AVE 
+Plato Principal: POROTOS_CON_PILCO 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP16
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: CHULETAS_AL_JUGO_CON_PAPAS_GRATINADAS 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP17
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: FIDEOS_CON_SALSA_BONTUX 
+Postre: PLATANO 
+
+Dia  SEP18
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: POLLO_ARVEJADO_CON_FIDEOS 
+Postre: MANDARINA 
+
+Dia  SEP19
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: CHAPSUI_DE_POLLO_CON_ARROZ 
+Postre: JALEA_MARMOL 
+
+
+==> Ejecucion ::::::: 3
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: time limit, feasible solution; objective 0.0269707026
+2.0373e+08 simplex iterations
+6.64714e+06 branching nodes
+absmipgap=0.023741, relmipgap=0.880251
+
+
+F [*] :=
+1     14431.3
+2  10651000
+;
+
+Dia  SEP1
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: BUDIN_DE_VERDURAS_CON_QUINOA 
+Postre: PLATANO 
+
+Dia  SEP2
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: CHULETA_ARVERJADA_CON_ARROZ_CURRY 
+Postre: MANDARINA 
+
+Dia  SEP3
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: CERDO_AL_JUGO_CON_ARROZ 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP4
+Entrada: CONSOME_DE_AVE 
+Plato Principal: CURRY_DE_VERDURAS_CON_ARROZ 
+Postre: JALEA_MARMOL 
+
+Dia  SEP5
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP8
+Entrada: CONSOME_DE_AVE 
+Plato Principal: POROTOS_CON_PILCO 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP9
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: FIDEOS_CON_SALSA_BONTUX 
+Postre: PLATANO 
+
+Dia  SEP10
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: CHULETAS_AL_JUGO_CON_PAPAS_GRATINADAS 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP11
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: CHAPSUI_DE_POLLO_CON_ARROZ 
+Postre: JALEA_MARMOL 
+
+Dia  SEP12
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: POLLO_ARVEJADO_CON_FIDEOS 
+Postre: MANDARINA 
+
+Dia  SEP15
+Entrada: CONSOME_DE_AVE 
+Plato Principal: RISOTTO_DE_ESPINACA 
+Postre: PLATANO 
+
+Dia  SEP16
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: MENESTRON 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP17
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: POLLO_ASADO_CON_ARROZ 
+Postre: MANDARINA 
+
+Dia  SEP18
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: POROTOS_CON_MAZAMORRA 
+Postre: JALEA_MARMOL 
+
+Dia  SEP19
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_ASADO_CON_PURE_MIXTO 
+Postre: CALABAZA_EN_TACHA 
+
+
+==> Ejecucion ::::::: 4
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: time limit, feasible solution; objective 0.03737420473
+2.38443e+08 simplex iterations
+7.28688e+06 branching nodes
+absmipgap=0.021774, relmipgap=0.582594
+
+
+F [*] :=
+1     14431.3
+2  10651000
+;
+
+Dia  SEP1
+Entrada: CONSOME_DE_AVE 
+Plato Principal: POROTOS_CON_PILCO 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP2
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: POLLO_ASADO_CON_ARROZ 
+Postre: MANDARINA 
+
+Dia  SEP3
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: CHAPSUI_DE_POLLO_CON_ARROZ 
+Postre: JALEA_MARMOL 
+
+Dia  SEP4
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: CHULETAS_AL_JUGO_CON_PAPAS_GRATINADAS 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP5
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: FIDEOS_CON_SALSA_BONTUX 
+Postre: PLATANO 
+
+Dia  SEP8
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: BUDIN_DE_VERDURAS_CON_QUINOA 
+Postre: PLATANO 
+
+Dia  SEP9
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: CERDO_AL_JUGO_CON_ARROZ 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP10
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: CHULETA_ARVERJADA_CON_ARROZ_CURRY 
+Postre: MANDARINA 
+
+Dia  SEP11
+Entrada: CONSOME_DE_AVE 
+Plato Principal: CURRY_DE_VERDURAS_CON_ARROZ 
+Postre: JALEA_MARMOL 
+
+Dia  SEP12
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP15
+Entrada: CONSOME_DE_AVE 
+Plato Principal: RISOTTO_DE_ESPINACA 
+Postre: PLATANO 
+
+Dia  SEP16
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: MENESTRON 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP17
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: POLLO_ARVEJADO_CON_FIDEOS 
+Postre: MANDARINA 
+
+Dia  SEP18
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_ASADO_CON_PURE_MIXTO 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP19
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: POROTOS_CON_MAZAMORRA 
+Postre: JALEA_MARMOL 
+
+
+==> Ejecucion ::::::: 5
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: time limit, feasible solution; objective 0.04437275135
+1.04599e+08 simplex iterations
+1.42586e+06 branching nodes
+absmipgap=0.018778, relmipgap=0.423189
+
+
+F [*] :=
+1     13758.9
+2  10888300
+;
+
+Dia  SEP1
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: POROTOS_CON_MAZAMORRA 
+Postre: JALEA_MARMOL 
+
+Dia  SEP2
+Entrada: CONSOME_DE_AVE 
+Plato Principal: POROTOS_CON_PILCO 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP3
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: POLLO_ARVEJADO_CON_FIDEOS 
+Postre: MANDARINA 
+
+Dia  SEP4
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: CERDO_AL_JUGO_CON_ARROZ 
+Postre: PLATANO 
+
+Dia  SEP5
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_ASADO_CON_PURE_MIXTO 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP8
+Entrada: CONSOME_DE_AVE 
+Plato Principal: RISOTTO_DE_ESPINACA 
+Postre: PLATANO 
+
+Dia  SEP9
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: POLLO_ASADO_CON_ARROZ 
+Postre: MANDARINA 
+
+Dia  SEP10
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: CURRY_DE_VERDURAS_CON_ARROZ 
+Postre: JALEA_MARMOL 
+
+Dia  SEP11
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: MENESTRON 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP12
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP15
+Entrada: CONSOME_DE_AVE 
+Plato Principal: BUDIN_DE_VERDURAS_CON_QUINOA 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP16
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: FIDEOS_CON_SALSA_BONTUX 
+Postre: PLATANO 
+
+Dia  SEP17
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: CHAPSUI_DE_POLLO_CON_ARROZ 
+Postre: JALEA_MARMOL 
+
+Dia  SEP18
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: CHULETA_ARVERJADA_CON_ARROZ_CURRY 
+Postre: MANDARINA 
+
+Dia  SEP19
+Entrada: MIX_DE_REPOLLO 
+Plato Principal: PESCADO_AL_HORNO_CON_QUINOA_A_LA_PRIMAVERA 
+Postre: JALEAS_TRICOLOR 
+
+
+==> Ejecucion ::::::: 6
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: time limit, feasible solution; objective 0.04652975809
+1.3087e+08 simplex iterations
+1.4738e+06 branching nodes
+absmipgap=0.0155929, relmipgap=0.335118
+
+
+F [*] :=
+1     12528.3
+2  11672100
+;
+
+Dia  SEP1
+Entrada: CONSOME_DE_AVE 
+Plato Principal: BUDIN_DE_VERDURAS_CON_QUINOA 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP2
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: PESCADO_AL_HORNO_CON_QUINOA_A_LA_PRIMAVERA 
+Postre: MANDARINA 
+
+Dia  SEP3
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: CHAPSUI_DE_POLLO_CON_ARROZ 
+Postre: JALEA_MARMOL 
+
+Dia  SEP4
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: POLLO_AL_JUGO_CON_QUINOA 
+Postre: PLATANO 
+
+Dia  SEP5
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP8
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: POROTOS_CON_PILCO 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP9
+Entrada: CONSOME_DE_AVE 
+Plato Principal: CURRY_DE_VERDURAS_CON_ARROZ 
+Postre: JALEA_MARMOL 
+
+Dia  SEP10
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_ASADO_CON_ARROZ 
+Postre: MANDARINA 
+
+Dia  SEP11
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: CERDO_AL_JUGO_CON_ARROZ 
+Postre: PLATANO 
+
+Dia  SEP12
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_ASADO_CON_PURE_MIXTO 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP15
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: POROTOS_CON_MAZAMORRA 
+Postre: JALEA_MARMOL 
+
+Dia  SEP16
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_ARVEJADO_CON_FIDEOS 
+Postre: MANDARINA 
+
+Dia  SEP17
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: FIDEOS_CON_SALSA_BONTUX 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP18
+Entrada: CONSOME_DE_AVE 
+Plato Principal: RISOTTO_DE_ESPINACA 
+Postre: PLATANO 
+
+Dia  SEP19
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: MENESTRON 
+Postre: JALEAS_TRICOLOR 
+
+
+==> Ejecucion ::::::: 7
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: time limit, feasible solution; objective 0.04265331818
+2.95174e+08 simplex iterations
+7.85018e+06 branching nodes
+absmipgap=0.0150851, relmipgap=0.353668
+
+
+F [*] :=
+1     12004.2
+2  12248800
+;
+
+Dia  SEP1
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: RISOTTO_DE_QUINOA 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP2
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_ASADO_CON_PURE_MIXTO 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP3
+Entrada: CONSOME_DE_AVE 
+Plato Principal: POROTOS_CON_MAZAMORRA 
+Postre: JALEA_MARMOL 
+
+Dia  SEP4
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: CERDO_AL_JUGO_CON_ARROZ 
+Postre: PLATANO 
+
+Dia  SEP5
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_ASADO_CON_ARROZ 
+Postre: MANDARINA 
+
+Dia  SEP8
+Entrada: CONSOME_DE_AVE 
+Plato Principal: BUDIN_DE_VERDURAS_CON_QUINOA 
+Postre: PLATANO 
+
+Dia  SEP9
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_ARVEJADO_CON_FIDEOS 
+Postre: MANDARINA 
+
+Dia  SEP10
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: MENESTRON 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP11
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP12
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: CURRY_DE_VERDURAS_CON_ARROZ 
+Postre: JALEA_MARMOL 
+
+Dia  SEP15
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: POROTOS_CON_PILCO 
+Postre: JALEA_MARMOL 
+
+Dia  SEP16
+Entrada: CONSOME_DE_AVE 
+Plato Principal: RISOTTO_DE_ESPINACA 
+Postre: PLATANO 
+
+Dia  SEP17
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_AL_JUGO_CON_QUINOA 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP18
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: PESCADO_AL_HORNO_CON_QUINOA_A_LA_PRIMAVERA 
+Postre: MANDARINA 
+
+Dia  SEP19
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: FIDEOS_CON_SALSA_BONTUX 
+Postre: CALABAZA_EN_TACHA 
+
+
+==> Ejecucion ::::::: 8
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: time limit, feasible solution; objective 0.0328407681
+1.86299e+08 simplex iterations
+5.65197e+06 branching nodes
+absmipgap=0.0149214, relmipgap=0.454357
+
+
+F [*] :=
+1     11919.2
+2  12354800
+;
+
+Dia  SEP1
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: RISOTTO_DE_QUINOA 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP2
+Entrada: CONSOME_DE_AVE 
+Plato Principal: POROTOS_CON_MAZAMORRA 
+Postre: JALEA_MARMOL 
+
+Dia  SEP3
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: PESCADO_AL_HORNO_CON_QUINOA_A_LA_PRIMAVERA 
+Postre: PLATANO 
+
+Dia  SEP4
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_ASADO_CON_ARROZ 
+Postre: MANDARINA 
+
+Dia  SEP5
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP8
+Entrada: CONSOME_DE_AVE 
+Plato Principal: BUDIN_DE_VERDURAS_CON_QUINOA 
+Postre: PLATANO 
+
+Dia  SEP9
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: CURRY_DE_VERDURAS_CON_ARROZ 
+Postre: JALEA_MARMOL 
+
+Dia  SEP10
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: FIDEOS_CON_SALSA_BONTUX 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP11
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: MENESTRON 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP12
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_ARVEJADO_CON_FIDEOS 
+Postre: MANDARINA 
+
+Dia  SEP15
+Entrada: CONSOME_DE_AVE 
+Plato Principal: RISOTTO_DE_ESPINACA 
+Postre: MOTE_CON_HUESILLO 
+
+Dia  SEP16
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: POROTOS_CON_PILCO 
+Postre: JALEA_MARMOL 
+
+Dia  SEP17
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_AL_JUGO_CON_QUINOA 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP18
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_ASADO_CON_PURE_MIXTO 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP19
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: CERDO_AL_JUGO_CON_ARROZ 
+Postre: PLATANO 
+
+
+==> Ejecucion ::::::: 9
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: time limit, feasible solution; objective 0.0227960146
+1.61532e+08 simplex iterations
+1.69868e+06 branching nodes
+absmipgap=0.0186134, relmipgap=0.816518
+
+
+F [*] :=
+1     11919.2
+2  12354800
+;
+
+Dia  SEP1
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: RISOTTO_DE_ESPINACA 
+Postre: MOTE_CON_HUESILLO 
+
+Dia  SEP2
+Entrada: CONSOME_DE_AVE 
+Plato Principal: POROTOS_CON_MAZAMORRA 
+Postre: JALEA_MARMOL 
+
+Dia  SEP3
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_ASADO_CON_PURE_MIXTO 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP4
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_AL_JUGO_CON_QUINOA 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP5
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: PESCADO_AL_HORNO_CON_QUINOA_A_LA_PRIMAVERA 
+Postre: PLATANO 
+
+Dia  SEP8
+Entrada: CONSOME_DE_AVE 
+Plato Principal: RISOTTO_DE_QUINOA 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP9
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: CURRY_DE_VERDURAS_CON_ARROZ 
+Postre: JALEA_MARMOL 
+
+Dia  SEP10
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: FIDEOS_CON_SALSA_BONTUX 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP11
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_ASADO_CON_ARROZ 
+Postre: MANDARINA 
+
+Dia  SEP12
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: CERDO_AL_JUGO_CON_ARROZ 
+Postre: PLATANO 
+
+Dia  SEP15
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: POROTOS_CON_PILCO 
+Postre: JALEA_MARMOL 
+
+Dia  SEP16
+Entrada: CONSOME_DE_AVE 
+Plato Principal: BUDIN_DE_VERDURAS_CON_QUINOA 
+Postre: PLATANO 
+
+Dia  SEP17
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: MENESTRON 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP18
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP19
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_ARVEJADO_CON_FIDEOS 
+Postre: MANDARINA 
+
+
+==> Ejecucion ::::::: 10
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: time limit, feasible solution; objective 0.01227163476
+1.72915e+08 simplex iterations
+2.05325e+06 branching nodes
+absmipgap=0.0174188, relmipgap=1.41943
+
+
+F [*] :=
+1     11878.7
+2  12544500
+;
+
+Dia  SEP1
+Entrada: CONSOME_DE_AVE 
+Plato Principal: POROTOS_CON_PILCO 
+Postre: JALEA_MARMOL 
+
+Dia  SEP2
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: MENESTRON 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP3
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: RISOTTO_DE_ESPINACA 
+Postre: MOTE_CON_HUESILLO 
+
+Dia  SEP4
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: FIDEOS_CON_SALSA_BONTUX 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP5
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_ARVEJADO_CON_FIDEOS 
+Postre: PLATANO 
+
+Dia  SEP8
+Entrada: CONSOME_DE_AVE 
+Plato Principal: POROTOS_CON_MAZAMORRA 
+Postre: JALEA_MARMOL 
+
+Dia  SEP9
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP10
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: PESCADO_AL_HORNO_CON_QUINOA_A_LA_PRIMAVERA 
+Postre: MOTE_CON_HUESILLO 
+
+Dia  SEP11
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: RISOTTO_DE_QUINOA 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP12
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_ASADO_CON_ARROZ 
+Postre: PLATANO 
+
+Dia  SEP15
+Entrada: CONSOME_DE_AVE 
+Plato Principal: BUDIN_DE_VERDURAS_CON_QUINOA 
+Postre: MOTE_CON_HUESILLO 
+
+Dia  SEP16
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_ASADO_CON_PURE_MIXTO 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP17
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: CERDO_AL_JUGO_CON_ARROZ 
+Postre: PLATANO 
+
+Dia  SEP18
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: CURRY_DE_VERDURAS_CON_ARROZ 
+Postre: JALEA_MARMOL 
+
+Dia  SEP19
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_AL_JUGO_CON_QUINOA 
+Postre: JALEAS_TRICOLOR 
+
+
+==> Ejecucion ::::::: 11
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: time limit, feasible solution; objective 1.450741535e-06
+1.96308e+08 simplex iterations
+2.65678e+06 branching nodes
+absmipgap=0.0163754, relmipgap=11287.6
+
+
+F [*] :=
+1     11856
+2  13091100
+;
+
+Dia  SEP1
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: RISOTTO_DE_ESPINACA 
+Postre: MOTE_CON_HUESILLO 
+
+Dia  SEP2
+Entrada: CONSOME_DE_AVE 
+Plato Principal: POLLO_AL_JUGO_CON_QUINOA 
+Postre: KIWI 
+
+Dia  SEP3
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: MENESTRON 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP4
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: POLLO_ASADO_CON_PURE_MIXTO 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP5
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ_PRIMAVERA 
+Postre: JALEA_MARMOL 
+
+Dia  SEP8
+Entrada: CONSOME_DE_AVE 
+Plato Principal: BUDIN_DE_VERDURAS_CON_QUINOA 
+Postre: MOTE_CON_HUESILLO 
+
+Dia  SEP9
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: CERDO_AL_JUGO_CON_ARROZ 
+Postre: JALEAS_TRICOLOR 
+
+Dia  SEP10
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: FIDEOS_CON_SALSA_BONTUX 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP11
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: POLLO_ARVEJADO_CON_FIDEOS 
+Postre: PLATANO 
+
+Dia  SEP12
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: POROTOS_CON_PILCO 
+Postre: JALEA_MARMOL 
+
+Dia  SEP15
+Entrada: CONSOME_DE_VACUNO 
+Plato Principal: RATATOUILLE 
+Postre: MOTE_CON_HUESILLO 
+
+Dia  SEP16
+Entrada: REPOLLO_MORADO_CON_PIMENTON 
+Plato Principal: POLLO_ASADO_CON_ARROZ 
+Postre: PLATANO 
+
+Dia  SEP17
+Entrada: ESPINACA_CON_ZANAHORIA 
+Plato Principal: PESCADO_AL_HORNO_CON_QUINOA_A_LA_PRIMAVERA 
+Postre: CALABAZA_EN_TACHA 
+
+Dia  SEP18
+Entrada: CONSOME_DE_AVE 
+Plato Principal: POROTOS_CON_MAZAMORRA 
+Postre: JALEA_MARMOL 
+
+Dia  SEP19
+Entrada: BETARRAGA_CON_CILANTRO 
+Plato Principal: RISOTTO_DE_QUINOA 
+Postre: JALEAS_TRICOLOR 
+
+
+
+
+:     MVF         PVF      TCPU1     f1         f2       :=
+1      11856      35225.6   3618   11856     14054400
+2   10542800   28108800     3633   17612.8   10542800
+;
+
+:      FN1        FN2        F1         F2     TCPU2    :=
+1    0.75576    1          17563.8   10542700   3734
+2    0.888066   0.994263   14471.9   10643500   3643
+3    0.889801   0.993836   14431.3   10651000   3640
+4    0.889801   0.993836   14431.3   10651000   3660
+5    0.918576   0.980328   13758.9   10888300   3607
+6    0.971232   0.935709   12528.3   11672100   3607
+7    0.993658   0.902879   12004.2   12248800   3639
+8    0.997293   0.896846   11919.2   12354800   3624
+9    0.997293   0.896846   11919.2   12354800   3612
+10   0.999027   0.886045   11878.7   12544500   3610
+11   1          0.854926   11856     13091100   3611
+;

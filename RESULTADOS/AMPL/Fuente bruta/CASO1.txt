@@ -1,0 +1,849 @@
+::::::::::::::::::::::::::: Descripcion de la Instancia :::::::::::::::::::::::::::
+
+N° Platos      : 56 
+N° Entradas      : 19 
+N° Platos Principales      : 22 
+N° Postres      : 15 
+N° Dias habiles      : 10 
+
+
+
+  Objetivo ::::::: 1
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: optimal solution; objective 8277.3
+92451 simplex iterations
+3457 branching nodes
+
+
+F [*] :=
+1     8277.3
+2  7955190
+;
+
+Dia  JUN3
+Entrada: POROTOS_VERDES_CON_CHOCLO 
+Plato Principal: LENTEJAS_GUISADAS 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN4
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: POLLO_ARVEJADO_CON_ARROZ 
+Postre: LECHE_ASADA 
+
+Dia  JUN5
+Entrada: APIO_CON_ACEITUNAS 
+Plato Principal: POROTOS_CON_RIENDAS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN6
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_ARVERJADO_CON_PURE 
+Postre: JALEA_CON_FRUTA 
+
+Dia  JUN7
+Entrada: APIO_CON_ZANAHORIA 
+Plato Principal: FIDEOS_CON_SALSA_DE_MARISCO 
+Postre: BRAZO_DE_REINA 
+
+Dia  JUN10
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS 
+Postre: BRAZO_DE_REINA 
+
+Dia  JUN11
+Entrada: APIO_CON_ZANAHORIA 
+Plato Principal: CERDO_AL_JUGO_CON_QUINOA 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN12
+Entrada: APIO_CON_ACEITUNAS 
+Plato Principal: GARBANZOS_GUISADOS 
+Postre: LECHE_ASADA 
+
+Dia  JUN13
+Entrada: POROTOS_VERDES_CON_CHOCLO 
+Plato Principal: POLLO_ARVERJADO_CON_QUINOA 
+Postre: JALEA_CON_FRUTA 
+
+Dia  JUN14
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ 
+Postre: JALEA_DE_PINA 
+
+
+  Objetivo ::::::: 2
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: optimal solution; objective 6135809
+2.37606e+06 simplex iterations
+165826 branching nodes
+
+
+F [*] :=
+1    22425.1
+2  6135810
+;
+
+Dia  JUN3
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: LENTEJAS_GUISADAS 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN4
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: POLLO_ARVEJADO_CON_ARROZ 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN5
+Entrada: CREMA_DE_ZAPALLO 
+Plato Principal: PANTRUCAS 
+Postre: MANZANA 
+
+Dia  JUN6
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: ARROZ_A_LA_VALENCIANA 
+Postre: PERA 
+
+Dia  JUN7
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ 
+Postre: LECHE_ASADA 
+
+Dia  JUN10
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: POROTOS_CON_RIENDAS 
+Postre: PERA 
+
+Dia  JUN11
+Entrada: CREMA_DE_ZAPALLO 
+Plato Principal: FIDEOS_CON_SALSA_DE_MARISCO 
+Postre: MANZANA 
+
+Dia  JUN12
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: GARBANZOS_GUISADOS 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN13
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN14
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: POLLO_ARVERJADO_CON_PURE 
+Postre: LECHE_ASADA 
+
+
+==> Ejecucion ::::::: 1
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: optimal solution; objective 3.870386677e-06
+1.14089e+06 simplex iterations
+49361 branching nodes
+
+
+F [*] :=
+1    22425.1
+2  6135810
+;
+
+Dia  JUN3
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: ARROZ_A_LA_VALENCIANA 
+Postre: PERA 
+
+Dia  JUN4
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: LENTEJAS_GUISADAS 
+Postre: LECHE_ASADA 
+
+Dia  JUN5
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN6
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN7
+Entrada: CREMA_DE_ZAPALLO 
+Plato Principal: FIDEOS_CON_SALSA_DE_MARISCO 
+Postre: MANZANA 
+
+Dia  JUN10
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: GARBANZOS_GUISADOS 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN11
+Entrada: CREMA_DE_ZAPALLO 
+Plato Principal: PANTRUCAS 
+Postre: MANZANA 
+
+Dia  JUN12
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: POROTOS_CON_RIENDAS 
+Postre: PERA 
+
+Dia  JUN13
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: POLLO_ARVERJADO_CON_PURE 
+Postre: LECHE_ASADA 
+
+Dia  JUN14
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: POLLO_ARVEJADO_CON_ARROZ 
+Postre: JALEA_DE_PINA 
+
+
+==> Ejecucion ::::::: 2
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: optimal solution; objective 0.006301086744
+1.29917e+06 simplex iterations
+51074 branching nodes
+
+
+F [*] :=
+1    10198.7
+2  6147190
+;
+
+Dia  JUN3
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: GARBANZOS_GUISADOS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN4
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_ARVERJADO_CON_PURE 
+Postre: LECHE_ASADA 
+
+Dia  JUN5
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN6
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: FIDEOS_CON_SALSA_DE_MARISCO 
+Postre: MANZANA 
+
+Dia  JUN7
+Entrada: SOPA_DE_FIDEOS 
+Plato Principal: ARROZ_A_LA_VALENCIANA 
+Postre: PERA 
+
+Dia  JUN10
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: POROTOS_CON_RIENDAS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN11
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ 
+Postre: LECHE_ASADA 
+
+Dia  JUN12
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: LENTEJAS_GUISADAS 
+Postre: PERA 
+
+Dia  JUN13
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: POLLO_ARVEJADO_CON_ARROZ 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN14
+Entrada: CREMA_DE_ZAPALLO 
+Plato Principal: PANTRUCAS 
+Postre: MANZANA 
+
+
+==> Ejecucion ::::::: 3
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: optimal solution; objective 0.01111193513
+1.28953e+06 simplex iterations
+50873 branching nodes
+
+
+F [*] :=
+1    10046.7
+2  6153350
+;
+
+Dia  JUN3
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: LENTEJAS_GUISADAS 
+Postre: LECHE_ASADA 
+
+Dia  JUN4
+Entrada: SOPA_DE_FIDEOS 
+Plato Principal: ARROZ_A_LA_VALENCIANA 
+Postre: MANZANA 
+
+Dia  JUN5
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: POROTOS_CON_RIENDAS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN6
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN7
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ 
+Postre: PERA 
+
+Dia  JUN10
+Entrada: CREMA_DE_ZAPALLO 
+Plato Principal: PANTRUCAS 
+Postre: MANZANA 
+
+Dia  JUN11
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: POLLO_ARVEJADO_CON_ARROZ 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN12
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: GARBANZOS_GUISADOS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN13
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_ARVERJADO_CON_PURE 
+Postre: LECHE_ASADA 
+
+Dia  JUN14
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: FIDEOS_CON_SALSA_DE_MARISCO 
+Postre: PERA 
+
+
+==> Ejecucion ::::::: 4
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: optimal solution; objective 0.01577047109
+1.37747e+06 simplex iterations
+50183 branching nodes
+
+
+F [*] :=
+1    10046.7
+2  6153350
+;
+
+Dia  JUN3
+Entrada: SOPA_DE_FIDEOS 
+Plato Principal: ARROZ_A_LA_VALENCIANA 
+Postre: MANZANA 
+
+Dia  JUN4
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ 
+Postre: PERA 
+
+Dia  JUN5
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: LENTEJAS_GUISADAS 
+Postre: LECHE_ASADA 
+
+Dia  JUN6
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN7
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: POROTOS_CON_RIENDAS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN10
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: GARBANZOS_GUISADOS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN11
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_ARVERJADO_CON_PURE 
+Postre: LECHE_ASADA 
+
+Dia  JUN12
+Entrada: CREMA_DE_ZAPALLO 
+Plato Principal: PANTRUCAS 
+Postre: MANZANA 
+
+Dia  JUN13
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: FIDEOS_CON_SALSA_DE_MARISCO 
+Postre: PERA 
+
+Dia  JUN14
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: POLLO_ARVEJADO_CON_ARROZ 
+Postre: SEMOLA_CON_LECHE 
+
+
+==> Ejecucion ::::::: 5
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: optimal solution; objective 0.02042900682
+1.20512e+06 simplex iterations
+51345 branching nodes
+
+
+F [*] :=
+1    10046.7
+2  6153350
+;
+
+Dia  JUN3
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN4
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ 
+Postre: PERA 
+
+Dia  JUN5
+Entrada: CREMA_DE_ZAPALLO 
+Plato Principal: PANTRUCAS 
+Postre: MANZANA 
+
+Dia  JUN6
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: GARBANZOS_GUISADOS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN7
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: LENTEJAS_GUISADAS 
+Postre: LECHE_ASADA 
+
+Dia  JUN10
+Entrada: SOPA_DE_FIDEOS 
+Plato Principal: ARROZ_A_LA_VALENCIANA 
+Postre: MANZANA 
+
+Dia  JUN11
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_ARVERJADO_CON_PURE 
+Postre: LECHE_ASADA 
+
+Dia  JUN12
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: POROTOS_CON_RIENDAS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN13
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: POLLO_ARVEJADO_CON_ARROZ 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN14
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: FIDEOS_CON_SALSA_DE_MARISCO 
+Postre: PERA 
+
+
+==> Ejecucion ::::::: 6
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: optimal solution; objective 0.02086726007
+393865 simplex iterations
+12141 branching nodes
+
+
+F [*] :=
+1     9016.1
+2  6346290
+;
+
+Dia  JUN3
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: LENTEJAS_GUISADAS 
+Postre: LECHE_ASADA 
+
+Dia  JUN4
+Entrada: SOPA_DE_FIDEOS 
+Plato Principal: ARROZ_A_LA_VALENCIANA 
+Postre: MANZANA 
+
+Dia  JUN5
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: POROTOS_CON_RIENDAS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN6
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_ARVERJADO_CON_PURE 
+Postre: PERA 
+
+Dia  JUN7
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: POLLO_ARVEJADO_CON_ARROZ 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN10
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN11
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: CAZUELA_DE_AVE 
+Postre: LECHE_ASADA 
+
+Dia  JUN12
+Entrada: CREMA_DE_ZAPALLO 
+Plato Principal: GARBANZOS_GUISADOS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN13
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: FIDEOS_CON_SALSA_DE_MARISCO 
+Postre: MANZANA 
+
+Dia  JUN14
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ 
+Postre: PERA 
+
+
+==> Ejecucion ::::::: 7
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: optimal solution; objective 0.02073396905
+436433 simplex iterations
+14967 branching nodes
+
+
+F [*] :=
+1     9016.1
+2  6346290
+;
+
+Dia  JUN3
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: LENTEJAS_GUISADAS 
+Postre: PERA 
+
+Dia  JUN4
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: FIDEOS_CON_SALSA_DE_MARISCO 
+Postre: MANZANA 
+
+Dia  JUN5
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN6
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: CAZUELA_DE_AVE 
+Postre: LECHE_ASADA 
+
+Dia  JUN7
+Entrada: CREMA_DE_ZAPALLO 
+Plato Principal: GARBANZOS_GUISADOS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN10
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: POROTOS_CON_RIENDAS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN11
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_ARVERJADO_CON_PURE 
+Postre: PERA 
+
+Dia  JUN12
+Entrada: SOPA_DE_FIDEOS 
+Plato Principal: ARROZ_A_LA_VALENCIANA 
+Postre: MANZANA 
+
+Dia  JUN13
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: POLLO_ARVEJADO_CON_ARROZ 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN14
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ 
+Postre: LECHE_ASADA 
+
+
+==> Ejecucion ::::::: 8
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: optimal solution; objective 0.0197471073
+3.32132e+06 simplex iterations
+92413 branching nodes
+
+
+F [*] :=
+1     8657.85
+2  6541890
+;
+
+Dia  JUN3
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN4
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: POLLO_ARVERJADO_CON_PURE 
+Postre: LECHE_ASADA 
+
+Dia  JUN5
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: POROTOS_CON_RIENDAS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN6
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ 
+Postre: PERA 
+
+Dia  JUN7
+Entrada: SOPA_DE_FIDEOS 
+Plato Principal: ARROZ_A_LA_VALENCIANA 
+Postre: MANZANA 
+
+Dia  JUN10
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: LENTEJAS_GUISADAS 
+Postre: PERA 
+
+Dia  JUN11
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: POLLO_ARVEJADO_CON_ARROZ 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN12
+Entrada: CREMA_DE_ZAPALLO 
+Plato Principal: GARBANZOS_GUISADOS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN13
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: FIDEOS_CON_SALSA_DE_MARISCO 
+Postre: MANZANA 
+
+Dia  JUN14
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: CERDO_AL_JUGO_CON_QUINOA 
+Postre: LECHE_ASADA 
+
+
+==> Ejecucion ::::::: 9
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: optimal solution; objective 0.01612961521
+1.99064e+06 simplex iterations
+88498 branching nodes
+
+
+F [*] :=
+1     8555.15
+2  6627070
+;
+
+Dia  JUN3
+Entrada: SOPA_DE_FIDEOS 
+Plato Principal: ARROZ_A_LA_VALENCIANA 
+Postre: MANZANA 
+
+Dia  JUN4
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ 
+Postre: BRAZO_DE_REINA 
+
+Dia  JUN5
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: GARBANZOS_GUISADOS 
+Postre: LECHE_ASADA 
+
+Dia  JUN6
+Entrada: CREMA_DE_ZAPALLO 
+Plato Principal: CERDO_AL_JUGO_CON_QUINOA 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN7
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: POLLO_ARVEJADO_CON_ARROZ 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN10
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: POROTOS_CON_RIENDAS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN11
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: POLLO_ARVERJADO_CON_PURE 
+Postre: LECHE_ASADA 
+
+Dia  JUN12
+Entrada: CREMA_DE_ZAPALLO 
+Plato Principal: BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN13
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: LENTEJAS_GUISADAS 
+Postre: BRAZO_DE_REINA 
+
+Dia  JUN14
+Entrada: REPOLLO_CON_BETARRAGA 
+Plato Principal: FIDEOS_CON_SALSA_DE_MARISCO 
+Postre: PERA 
+
+
+==> Ejecucion ::::::: 10
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: optimal solution; objective 0.01003121521
+305303 simplex iterations
+11170 branching nodes
+
+
+F [*] :=
+1     8355.95
+2  6927140
+;
+
+Dia  JUN3
+Entrada: ZANAHORIA_CON_PEPINO 
+Plato Principal: POROTOS_CON_RIENDAS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN4
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ 
+Postre: BRAZO_DE_REINA 
+
+Dia  JUN5
+Entrada: APIO_CON_ACEITUNAS 
+Plato Principal: LENTEJAS_GUISADAS 
+Postre: LECHE_ASADA 
+
+Dia  JUN6
+Entrada: APIO_CON_ZANAHORIA 
+Plato Principal: FIDEOS_CON_SALSA_DE_MARISCO 
+Postre: PERA 
+
+Dia  JUN7
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: POLLO_ARVEJADO_CON_ARROZ 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN10
+Entrada: SOPA_DE_FIDEOS 
+Plato Principal: ARROZ_A_LA_VALENCIANA 
+Postre: MANZANA 
+
+Dia  JUN11
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS 
+Postre: BRAZO_DE_REINA 
+
+Dia  JUN12
+Entrada: APIO_CON_ACEITUNAS 
+Plato Principal: GARBANZOS_GUISADOS 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN13
+Entrada: APIO_CON_ZANAHORIA 
+Plato Principal: CERDO_AL_JUGO_CON_QUINOA 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN14
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_ARVERJADO_CON_PURE 
+Postre: LECHE_ASADA 
+
+
+==> Ejecucion ::::::: 11
+Gurobi 12.0.1:   lim:time = 3600
+Gurobi 12.0.1: optimal solution; objective 1.809108096e-06
+215682 simplex iterations
+6584 branching nodes
+
+
+F [*] :=
+1     8277.3
+2  7904140
+;
+
+Dia  JUN3
+Entrada: APIO_CON_ACEITUNAS 
+Plato Principal: GARBANZOS_GUISADOS 
+Postre: LECHE_ASADA 
+
+Dia  JUN4
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_AL_JUGO_CON_ARROZ 
+Postre: JALEA_CON_FRUTA 
+
+Dia  JUN5
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: BUDIN_DE_VERDURAS_CON_PAPAS_COCIDAS 
+Postre: BRAZO_DE_REINA 
+
+Dia  JUN6
+Entrada: APIO_CON_ZANAHORIA 
+Plato Principal: CERDO_AL_JUGO_CON_QUINOA 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN7
+Entrada: POROTOS_VERDES_CON_CHOCLO 
+Plato Principal: POLLO_ARVERJADO_CON_QUINOA 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN10
+Entrada: APIO_CON_ACEITUNAS 
+Plato Principal: POROTOS_CON_RIENDAS 
+Postre: JALEA_DE_PINA 
+
+Dia  JUN11
+Entrada: BETARRAGA_CON_ZANAHORIA 
+Plato Principal: POLLO_ARVERJADO_CON_PURE 
+Postre: JALEA_CON_FRUTA 
+
+Dia  JUN12
+Entrada: POROTOS_VERDES_CON_CHOCLO 
+Plato Principal: LENTEJAS_GUISADAS 
+Postre: SEMOLA_CON_LECHE 
+
+Dia  JUN13
+Entrada: BETARRAGAS_CON_CEBOLLA 
+Plato Principal: POLLO_ARVEJADO_CON_ARROZ 
+Postre: LECHE_ASADA 
+
+Dia  JUN14
+Entrada: APIO_CON_ZANAHORIA 
+Plato Principal: FIDEOS_CON_SALSA_DE_MARISCO 
+Postre: BRAZO_DE_REINA 
+
+
+
+
+:      MVF         PVF     TCPU1     f1        f2       :=
+1      8277.3      44850.1    2     8277.3   7955190
+2   6135810     15910400     37    22425.1   6135810
+;
+
+:      FN1        FN2         F1        F2    TCPU2    :=
+1    0.613161   1          22425.1    6135810   11
+2    0.947464   0.998836   10198.7    6147190   10
+3    0.95162    0.998205   10046.7    6153350   11
+4    0.95162    0.998205   10046.7    6153350   12
+5    0.95162    0.998205   10046.7    6153350   10
+6    0.979799   0.978466    9016.1    6346290    5
+7    0.979799   0.978466    9016.1    6346290    4
+8    0.989595   0.958455    8657.85   6541890   21
+9    0.992403   0.949741    8555.15   6627070   17
+10   0.997849   0.919042    8355.95   6927140    3
+11   1          0.819089    8277.3    7904140    3
+;
